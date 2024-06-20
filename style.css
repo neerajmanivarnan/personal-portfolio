@@ -460,11 +460,20 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0 ;
+  background-color: antiquewhite;
+}
+
+.footer{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 footer p {
   text-align: center;
+  margin-bottom: 0;
+  background-color: aqua;
 }
 
 .reveal-up.in-view {
