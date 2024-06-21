@@ -171,6 +171,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -178,7 +179,10 @@ section {
 }
 
 .section__pic-container {
+  
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -312,6 +316,8 @@ section {
   right: -5rem;
   bottom: 2.5rem;
 }
+
+
 
 .details-container {
   padding: 1.5rem;
