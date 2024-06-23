@@ -390,7 +390,7 @@ article .icon {
     
     
     
-    margin-top: 1000px;
+    margin-top: 800px;
     
   position: relative;
 } 
@@ -482,12 +482,10 @@ footer p {
   background-color: aqua;
 }
 
-.reveal-up.in-view {
-    opacity: 1;
-    transform: translateY(0); /* Adjust transform property for desired animation */
-    transition: all 2s ease-in-out; /* Add transition for smooth animation */
-}
+
 
 link{
     border-radius: 50%;
 }
+
+

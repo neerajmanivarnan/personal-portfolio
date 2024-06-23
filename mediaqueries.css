@@ -23,6 +23,10 @@
       margin-top: 100px;
     }
 
+    #projects{
+      margin-top: 70px;
+    }
+
     #desktop-nav {
       display: none;
     }
@@ -63,7 +67,13 @@
   @media screen and (max-width: 600px) {
 
     .section__pic-container{
-      margin-bottom: 250px;
+      margin-bottom: 110px;
+    }
+    
+    .contact-info-container{
+      background-color: aqua;
+      margin: 10px;
+      padding: 6px;
     }
 
     #about{
@@ -72,6 +82,10 @@
 
     .section__text{
       margin-top: 100px;
+    }
+
+    #projects{
+      margin-top: 70px;
     }
 
  
