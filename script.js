@@ -21,3 +21,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 sections.forEach((section) => observer.observe(section)); // Observe each section
+
+
+//revela up 
+
