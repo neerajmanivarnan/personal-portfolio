@@ -21,6 +21,7 @@ html,body{
 
 html {
   scroll-behavior: smooth;
+  will-change: transform, opacity;
 }
 
 p {
@@ -489,3 +490,21 @@ link{
 }
 
 
+/* reveal animation  */
+
+.reveal-on-scroll {
+  opacity: 0; 
+  transform: translateY(100px); 
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in; 
+}
+
+.reveal-on-scroll.in-view { 
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.experience-details-container {
+  will-change: transform, opacity; 
+  
+}
