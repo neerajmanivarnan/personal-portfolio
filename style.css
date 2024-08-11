@@ -508,3 +508,7 @@ link{
   will-change: transform, opacity; 
   
 }
+
+.icon-pro{
+  border-radius: 50%;
+}
