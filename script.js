@@ -16,15 +16,15 @@ const options = {
   threshold: 0.6, 
 };
 
-const observer1 = new IntersectionObserver((entries, observer1) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('in-view');
-    } else {
-      entry.target.classList.remove('in-view');
-    }
-  });
-});
+// const observer1 = new IntersectionObserver((entries, observer1) => {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add('in-view');
+//     } else {
+//       entry.target.classList.remove('in-view');
+//     }
+//   });
+// });
 
 elements.forEach(element => observer1.observe(element));
 
