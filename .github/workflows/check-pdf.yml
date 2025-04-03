@@ -1,0 +1,26 @@
+name: Check for PDF in Files Directory
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check for PDF file
+        run: |
+          if ls files/*.pdf 1> /dev/null 2>&1; then
+            echo "PDF file found ✅"
+          else
+            echo "No PDF file found ❌"
+            exit 1
+          fi
